@@ -37,7 +37,7 @@ url = "https://github.com/nnttai"
   name = "Posts"
   weight = 200
   identifier = "posts"
-  url = "/post/"
+  url = "/blog/"
 
   [[menu.main]]
   name = "About"
