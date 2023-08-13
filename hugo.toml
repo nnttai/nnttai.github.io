@@ -1,0 +1,11 @@
+baseURL = 'https://nnttai.github.io/'
+languageCode = 'en-us'
+title = 'My Personal Blog'
+theme = 'anatole'
+enableEmoji = true
+
+[params]
+title = "Nguyen Nhi Thanh Tai blog"
+author = "Nguyen Nhi Thanh Tai"
+description = "Personal Blog"
+
