@@ -64,3 +64,14 @@ url = "https://github.com/nnttai"
   url = "/certifications/"
   parent = "accomplishments"
 
+  [[menu.main]]
+  name = "Contact"
+  weight = 600
+  identifier = "contact"
+  url = "/contact/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  weight = 300
+  identifier = "portfolio"
+  url = "/portfolio/"
