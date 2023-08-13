@@ -5,7 +5,62 @@ theme = 'anatole'
 enableEmoji = true
 
 [params]
-title = "Nguyen Nhi Thanh Tai blog"
+title = "Hei I'm Nguyen Nhi Thanh Tai"
 author = "Nguyen Nhi Thanh Tai"
-description = "Personal Blog"
+description = "Not think about yet!!!"
 profilePicture = "images/icon.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/t%C3%A0i-nguy%E1%BB%85n-25556320a/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "github"
+url = "https://github.com/nnttai"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+  
+  [[menu.main]]
+  name = "Accomplishments"
+  weight = 500
+  identifier = "accomplishments"
+
+  [[menu.main]]
+  name = "Awards"
+  weight = 510
+  identifier = "awards"
+  url = "/awards/"
+  parent = "accomplishments"
+
+  [[menu.main]]
+  name = "Certifications"
+  weight = 520
+  identifier = "certifications"
+  url = "/certifications/"
+  parent = "accomplishments"
+
