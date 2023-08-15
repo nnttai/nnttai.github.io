@@ -1,14 +1,14 @@
 baseURL = 'https://nnttai.github.io/'
 languageCode = 'en-us'
-title = 'My Personal Blog'
+title = "NNTTai's blog"
 theme = 'anatole'
 enableEmoji = true
 
 [params]
-title = "Hei I'm Nguyen Nhi Thanh Tai"
+title = "Learning - Doing - Sharing"
 author = "Nguyen Nhi Thanh Tai"
-description = "Not think about yet!!!"
-profilePicture = "images/icon.jpg"
+description = "If you can't explain it simply - You don't understand it well enough"
+profilePicture = "images/profile_pic_edited.jpg"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"

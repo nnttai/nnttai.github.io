@@ -3,19 +3,23 @@ title: "About"
 date: 2023-08-13T20:40:10+07:00
 draft: false
 ---
-Written in Go, Hugo is an open source static site generator available under the Apache License 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+### Who am I?
 
-Hugo makes use of a variety of open source projects including:
+Hi, my name is Tai. Currently, I'm 23 years old and work as AI Engineer in Viet Nam.  
 
-https://github.com/yuin/goldmark
-https://github.com/alecthomas/chroma
-https://github.com/muesli/smartcrop
-https://github.com/spf13/cobra
-https://github.com/spf13/viper
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+### Why I decide start doing this blog?
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+- First, after few months work as AI Engineer, I realize that there are so many knowledge that the AI Engineer need to be professional in. So I think that I should start learning and improving myself to become successful in my career.
+- Second, I think the best way to learn new things is learning and doing in parallel and beside that you need to explain it in your way to remember it longer.
+- Third, this blog will proof my ability for future customer or recruiter in the future.
+- Fourth, I can practices my English through writting blog.
+  
+### What is this blog about ?
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+- I will focus in:
+	1. Deep Learning
+	2. Deploy AI model
+	3. MLOPs
 
-Learn more and contribute on GitHub.
+### Preface
+
