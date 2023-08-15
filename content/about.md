@@ -5,7 +5,7 @@ draft: false
 ---
 ### Who am I?
 
-Hi, my name is Tai. Currently, I'm 23 years old and work as AI Engineer in Viet Nam.  
+- Hi, my name is Tai. Currently, I'm 23 years old and work as AI Engineer in Viet Nam.  
 
 ### Why I decide start doing this blog?
 
