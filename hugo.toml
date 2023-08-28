@@ -3,12 +3,46 @@ languageCode = 'en-us'
 title = "NNTTai's blog"
 theme = 'anatole'
 enableEmoji = true
+localizedDates = true
+enableRobotsTXT = true
+summarylength = 10
+
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
 
 [params]
-title = "Learning - Doing - Sharing"
+title = "Learn - Do - Share"
 author = "Nguyen Nhi Thanh Tai"
-description = "If you can't explain it simply - You don't understand it well enough"
+description = "If you can't explain it simply-You don't understand it well enough."
 profilePicture = "images/profile_pic_edited.jpg"
+displayMode = "white"
+disableThemeSwitcher = false
+contentratio = 0.75
+hidesidebar = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+customCss = ["css/syntax.css"]
+reversepagetitle = true
+
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -37,7 +71,7 @@ url = "https://github.com/nnttai"
   name = "Posts"
   weight = 200
   identifier = "posts"
-  url = "/blog/"
+  url = "/posts/"
 
   [[menu.main]]
   name = "About"
@@ -75,3 +109,10 @@ url = "https://github.com/nnttai"
   weight = 300
   identifier = "portfolio"
   url = "/portfolio/"
+
+[mermail]
+enable = true
+
+[params.math]
+enable = true
+use = "katex"
