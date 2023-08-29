@@ -37,7 +37,7 @@ profilePicture = "images/profile_pic_edited.jpg"
 displayMode = "white"
 disableThemeSwitcher = false
 contentratio = 0.75
-hidesidebar = true
+hidesidebar = false
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 customCss = ["css/syntax.css"]
@@ -115,4 +115,4 @@ enable = true
 
 [params.math]
 enable = true
-use = "katex"
+use = "mathjax"
