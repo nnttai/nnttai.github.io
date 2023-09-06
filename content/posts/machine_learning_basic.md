@@ -1,13 +1,17 @@
 ---
 author: "Nguyen Nhi Thanh Tai"
-title: "Basic concept in machine learning"
+title: "Machine learning part 1"
 date: 2023-08-28
 toc: true
+series: 
+  - machine-learning-basic
+tags:
+  - ML
+  - basic
 ---
+<!--more-->
 
-# TL;DR
-
-- In this posts, we will explain some very basic concepts in machine learning and deep learning.
+In this posts, we will explain some very basic concepts in machine learning and deep learning.
 
 ## 1. What is machine learning?
 
@@ -98,3 +102,7 @@ toc: true
 - So now I will explain why subtraction, imagine about the bowl like and the optimal value of the $\theta$ is the lowest point of the bowl, if the value of $\theta$ is on the right so the value should go from right to left and at that time the value of $\alpha\frac{\partial}{\partial_{\theta}}J({\theta_{0}}, {\theta_{1}})$ is positive so we need to subtract it, when the $\theta$ is on the left, the value should go from right to left, at that time $\alpha\frac{\partial}{\partial_{\theta}}J({\theta_{0}}, {\theta_{1}})$ is negative so subtraction the negative value is equal to plus positive value, so $\theta$ will go from left to right.
 
 {{< figure src="/images/Gradient_descent.jpg" alt="image" caption="From Machine learning course of Andrew Ng" >}}
+
+## 7. The end
+
+- Until now, we have introduced about task T and experience E and haven't mentioned about performance P. Shortly, performance P is usually use for evaluate that the model is acctually good or not. In the next blog, we will explain some new important concept.
